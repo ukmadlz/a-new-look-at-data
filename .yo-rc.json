@@ -1,0 +1,16 @@
+{
+  "generator-cloudant-talk": {
+    "presentationTitle": "A new look at data",
+    "presentationSubTitle": "",
+    "packageVersion": "0.0.1",
+    "revealLayout": "cloudant",
+    "revealTheme": "cloudant",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "ukmadlz",
+    "githubRepository": "a-new-look-at-data",
+    "authorName": "Titus Tischer",
+    "authorJobTitle": "Cloudant Leader Benelux, Nordics",
+    "authorEmail": "Titus.Tischer@nl.ibm.com"
+  }
+}
