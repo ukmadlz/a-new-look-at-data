@@ -1,0 +1,24 @@
+[
+    "index.md",
+    {
+        "filename": "notice.md",
+        "attr": {
+            "id": "notice"
+        }
+    },
+    {
+        "filename": "author.md",
+        "attr": {
+            "id": "author"
+        }
+    },
+    "changing-data-types.md",
+    "relational-vs-document-data-model.md",
+    "rdbms-example-user-profile.md",
+    "document-example-user-profile.md",
+    "changing-data-locations.md",
+    "emergence-of-nosql.md",
+    "ibm-and-nosql.md",
+    "ibm-cloudant-have-rcognized.md",
+    "use-cases.md"
+]
