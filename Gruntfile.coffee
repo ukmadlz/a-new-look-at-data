@@ -30,7 +30,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -70,6 +70,7 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'images/**'
+                        'css/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -79,7 +80,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
         buildcontrol:
 
             options:
@@ -91,7 +92,7 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:ukmadlz/a-new-look-at-data.git'
                     branch: 'gh-pages'
-        
+
 
 
     # Load all grunt tasks.
@@ -133,13 +134,13 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
