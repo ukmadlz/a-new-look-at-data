@@ -22,7 +22,7 @@ body {
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #000 ; }
 
 ::selection {
   color: white;
@@ -50,7 +50,7 @@ body {
 * LINKS
 *********************************************/
 .reveal a:not(.image) {
-  color: black;
+  color: #00f;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -89,6 +89,9 @@ body {
 /*********************************************
 * NAVIGATION CONTROLS
 *********************************************/
+.reveal .controls {
+  bottom: 60px; }
+
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
   border-right-color: #13daec; }
@@ -163,8 +166,8 @@ body {
   float: right; }
 
 
-  /*********************************************
-  * FOOTER
-  *********************************************/
-  .reveal #notice {
-    font-size: 0.35em}
+/*********************************************
+* NOTICE
+*********************************************/
+.reveal #notice {
+  font-size: 0.35em}
