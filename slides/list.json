@@ -18,7 +18,11 @@
     "document-example-user-profile.md",
     "changing-data-locations.md",
     "emergence-of-nosql.md",
-    "ibm-and-nosql.md",
+    [
+        "ibm-and-nosql.md",
+        "ibm-and-nosql-1.md"
+    ],
     "ibm-cloudant-have-rcognized.md",
-    "use-cases.md"
+    "use-cases.md",
+    "ibm-and-nosql.md"
 ]
