@@ -14,7 +14,12 @@
     },
     "structured-data.md",
     "unstructured-data.md",
-    "changing-data-types.md",
+    {
+        "filename":"changing-data-types.md",
+        "attr":{
+            "data-background":"images/iStock_000002328995Large.jpg"
+        }
+    },
     "relational-vs-document-data-model.md",
     "rdbms-example-user-profile.md",
     "document-example-user-profile.md",
