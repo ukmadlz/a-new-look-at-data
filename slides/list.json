@@ -12,6 +12,8 @@
             "id": "author"
         }
     },
+    "structured-data.md",
+    "unstructured-data.md",
     "changing-data-types.md",
     "relational-vs-document-data-model.md",
     "rdbms-example-user-profile.md",
