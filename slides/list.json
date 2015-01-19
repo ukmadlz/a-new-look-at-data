@@ -15,20 +15,28 @@
     "structured-data.md",
     "unstructured-data.md",
     {
-        "filename":"changing-data-types.md",
-        "attr":{
-            "data-background":"images/iStock_000002328995Large.jpg"
+        "filename": "changing-data-locations.md",
+        "attr": {
+            "data-background": "images/iStock_000002328995Large.jpg"
         }
     },
-    "relational-vs-document-data-model.md",
-    "rdbms-example-user-profile.md",
-    "document-example-user-profile.md",
-    "changing-data-locations.md",
-    "emergence-of-nosql.md",
+    "always-available.md",
+    "and-through-cloud.md",
+    [
+        "emergence-of-nosql.md",
+        "relational-vs-document-data-model.md",
+        "rdbms-example-user-profile.md",
+        "document-example-user-profile.md",
+        "not-only-sql-offers.md"
+    ],
     [
         "ibm-and-nosql.md",
-        "ibm-and-nosql-1.md"
+        "json-integration-into-existing-relational-systems.md",
+        "ibm-acquired-cloudant-nosql-dbaas.md",
+        "the-way-to-consume-new-technology.md",
+        "ibm-cloudant-have-rcognized.md",
+        "ibm-cloudant-have-rcognized-2.md",
+        "ibm-cloudant-have-rcognized-3.md"
     ],
-    "ibm-cloudant-have-rcognized.md",
     "use-cases.md"
 ]

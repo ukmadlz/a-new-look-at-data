@@ -1,3 +1,3 @@
 ##  IBM & Cloudant have rcognized…
 
-![](images/cloudant2.png)
+![](images/Dynamite2-revised.jpg)
