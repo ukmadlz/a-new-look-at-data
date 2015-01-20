@@ -1,3 +1,3 @@
 ## Always available
 
-![](images/tablet_icons1.png)
+![](images/tabletversion2.png)
