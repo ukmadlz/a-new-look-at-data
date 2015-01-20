@@ -82,13 +82,15 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        appcache:
-            options:
-                basePath: 'dist'
-            all:
-                dest: 'dist/manifest.appcache'
-                cache: 'dist/**/*'
-                network: '*'
+        # appcache:
+        #
+        #     options:
+        #         basePath: 'dist'
+        #
+        #     all:
+        #         dest: 'dist/manifest.appcache'
+        #         cache: 'dist/**/*'
+        #         network: '*'
 
         buildcontrol:
 
@@ -143,15 +145,9 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    grunt.registerTask 'appcache',
-        'Build cache.manifest', [
-            'appcache'
-        ]
-
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
-            'appcache'
             'buildcontrol'
         ]
 
