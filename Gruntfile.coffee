@@ -92,6 +92,7 @@ module.exports = (grunt) ->
                       'bower_components/reveal.js/plugin/leap'
                       'bower_components/reveal.js/test'
                       'bower_components/reveal.js/test/examples'
+                      'bower_components/reveal.js/test/examples/assets'
                       'bower_components/reveal.js/plugin/math'
                       'bower_components/reveal.js/plugin/print-pdf'
                     ]
