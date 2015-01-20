@@ -143,6 +143,10 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+    grunt.registerTask 'appcache',
+        'Build cache.manifest', [
+            'appcache'
+        ]
 
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
