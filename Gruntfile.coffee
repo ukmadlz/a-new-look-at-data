@@ -88,6 +88,11 @@ module.exports = (grunt) ->
                 options:
                     timestamp: true
                     exclude: [
+                      'css'
+                      'js'
+                      'images'
+                      'video'
+                      'slides'
                       'bower_components'
                       'bower_components/reveal.js/plugin/leap'
                       'bower_components/reveal.js/test'
@@ -95,6 +100,29 @@ module.exports = (grunt) ->
                       'bower_components/reveal.js/test/examples/assets'
                       'bower_components/reveal.js/plugin/math'
                       'bower_components/reveal.js/plugin/print-pdf'
+                      'bower_components/reveal-highlight-themes'
+                      'bower_components/reveal-highlight-themes/styles'
+                      'bower_components/reveal.js'
+                      'bower_components/reveal.js/css'
+                      'bower_components/reveal.js/css/print'
+                      'bower_components/reveal.js/css/theme'
+                      'bower_components/reveal.js/css/theme/source'
+                      'bower_components/reveal.js/css/theme/template',
+                      'bower_components/reveal.js/js'
+                      'bower_components/reveal.js/lib'
+                      'bower_components/reveal.js/lib/css'
+                      'bower_components/reveal.js/lib/font'
+                      'bower_components/reveal.js/lib/js'
+                      'bower_components/reveal.js/plugin'
+                      'bower_components/reveal.js/plugin/highlight'
+                      'bower_components/reveal.js/plugin/markdown'
+                      'bower_components/reveal.js/plugin/multiplex'
+                      'bower_components/reveal.js/plugin/notes'
+                      'bower_components/reveal.js/plugin/notes-server'
+                      'bower_components/reveal.js/plugin/postmessage'
+                      'bower_components/reveal.js/plugin/remotes'
+                      'bower_components/reveal.js/plugin/search'
+                      'bower_components/reveal.js/plugin/zoom-js'
                     ]
                 src: [
                     'css/**'
