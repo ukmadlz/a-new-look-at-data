@@ -1,3 +1,3 @@
-##  The way to consume new technology
+##  Flexible and easy to deploy
 
-Requires image
+![](images/yourdatacenter2.png)
