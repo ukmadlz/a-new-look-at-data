@@ -22,21 +22,17 @@
     },
     "always-available.md",
     "and-through-cloud.md",
-    [
-        "emergence-of-nosql.md",
-        "relational-vs-document-data-model.md",
-        "rdbms-example-user-profile.md",
-        "document-example-user-profile.md",
-        "not-only-sql-offers.md"
-    ],
-    [
-        "ibm-and-nosql.md",
-        "json-integration-into-existing-relational-systems.md",
-        "ibm-acquired-cloudant-nosql-dbaas.md",
-        "the-way-to-consume-new-technology.md",
-        "ibm-cloudant-have-rcognized.md",
-        "ibm-cloudant-have-rcognized-2.md",
-        "ibm-cloudant-have-rcognized-3.md"
-    ],
+    "emergence-of-nosql.md",
+    "relational-vs-document-data-model.md",
+    "rdbms-example-user-profile.md",
+    "document-example-user-profile.md",
+    "not-only-sql-offers.md",
+    "ibm-and-nosql.md",
+    "json-integration-into-existing-relational-systems.md",
+    "ibm-acquired-cloudant-nosql-dbaas.md",
+    "the-way-to-consume-new-technology.md",
+    "ibm-cloudant-have-rcognized.md",
+    "ibm-cloudant-have-rcognized-2.md",
+    "ibm-cloudant-have-rcognized-3.md",
     "use-cases.md"
 ]
