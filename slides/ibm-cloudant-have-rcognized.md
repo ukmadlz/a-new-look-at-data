@@ -1,3 +1,0 @@
-##  IBM & Cloudant have rcognized…
-
-![](images/cloudant2.png)

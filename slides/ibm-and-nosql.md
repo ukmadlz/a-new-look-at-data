@@ -1,1 +1,0 @@
-##  IBM and NoSQL
