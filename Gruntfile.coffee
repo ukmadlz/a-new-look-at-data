@@ -82,15 +82,22 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        # appcache:
-        #
-        #     options:
-        #         basePath: 'dist'
-        #
-        #     all:
-        #         dest: 'dist/manifest.appcache'
-        #         cache: 'dist/**/*'
-        #         network: '*'
+        manifest:
+
+            generate:
+                options:
+                    timestamp: false
+                    hash: true
+                src: [
+                    'css/**'
+                    'bower_components/**'
+                    'js/**'
+                    'images/**'
+                    'video/**'
+                    'slides/**'
+                    'index.html'
+                ]
+                dest: 'dist/cache.manifest'
 
         buildcontrol:
 
@@ -103,8 +110,6 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:ukmadlz/a-new-look-at-data.git'
                     branch: 'gh-pages'
-
-
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
@@ -140,6 +145,7 @@ module.exports = (grunt) ->
 
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
+            'manifest'
             'test'
             'buildIndex'
             'copy'
