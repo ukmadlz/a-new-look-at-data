@@ -27,12 +27,16 @@
     "rdbms-example-user-profile.md",
     "document-example-user-profile.md",
     "not-only-sql-offers.md",
-    "ibm-and-nosql.md",
-    "json-integration-into-existing-relational-systems.md",
-    "ibm-acquired-cloudant-nosql-dbaas.md",
-    "the-way-to-consume-new-technology.md",
-    "ibm-cloudant-have-rcognized.md",
-    "ibm-cloudant-have-rcognized-2.md",
-    "ibm-cloudant-have-rcognized-3.md",
-    "use-cases.md"
+    "cloudant.md",
+    "the-nosql-data-layer-optimized-for-mobile-and-web.md",
+    "powered-by-open-source.md",
+    "flexible-and-easy-to-deploy.md",
+    "delivered-as-a-service.md",
+    "ready-to-integrate-into-your-enterprise.md",
+    {
+      "filename": "use-cases.md",
+      "attr": {
+        "id": "use-cases"
+      }
+    }
 ]
