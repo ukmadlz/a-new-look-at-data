@@ -109,6 +109,8 @@ module.exports = (grunt) ->
                       'bower_components/reveal.js/test/test-markdown.js'
                       'bower_components/reveal.js/test/test.html'
                       'bower_components/reveal.js/test/test.js'
+                      'bower_components/reveal.js/plugin/math'
+                      'bower_components/reveal.js/plugin/math/math.js'
                     ]
                 src: [
                     'css/**'
