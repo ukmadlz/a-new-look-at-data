@@ -1,6 +1,6 @@
 ##  Use cases
 
-![](images/appleIBM_desktop_2x.png)
+![](images/home_device_desktop_2x.png)
 ![](images/bluemix-logo.png)
 ![](images/abbott.png)
 ![](images/fidelity.png)
