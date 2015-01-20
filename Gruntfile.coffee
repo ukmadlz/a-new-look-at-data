@@ -86,8 +86,7 @@ module.exports = (grunt) ->
 
             generate:
                 options:
-                    timestamp: false
-                    hash: true
+                    timestamp: true
                 src: [
                     'css/**'
                     'bower_components/**'
