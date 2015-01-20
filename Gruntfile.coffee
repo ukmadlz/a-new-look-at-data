@@ -87,6 +87,9 @@ module.exports = (grunt) ->
             generate:
                 options:
                     timestamp: true
+                    exclude: [
+                      '/bower_components/reveal.js/plugin/leap/'
+                    ]
                 src: [
                     'css/**'
                     'bower_components/**'
