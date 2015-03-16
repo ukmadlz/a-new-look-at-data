@@ -6,12 +6,6 @@
             "id": "notice"
         }
     },
-    {
-        "filename": "author.md",
-        "attr": {
-            "id": "author"
-        }
-    },
     "structured-data.md",
     "unstructured-data.md",
     {
